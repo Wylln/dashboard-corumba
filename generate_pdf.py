@@ -16,9 +16,12 @@ with open("assets/arara-logo.png", "rb") as f:
 
 total_pdvs = sum(s["pdvs"] for s in stores)
 avg_pdvs = round(total_pdvs / len(stores), 2)
-ap_pdvs = sum(s["pdvs"] for s in stores if s["state"] == "AP")
-pa_pdvs = sum(s["pdvs"] for s in stores if s["state"] in ["PA", "MA/PA"])
-am_pdvs = sum(s["pdvs"] for s in stores if s["state"] == "AM")
+ap_stores = [s for s in stores if s["state"] == "AP"]
+pa_stores = [s for s in stores if s["state"] == "PA"]
+am_stores = [s for s in stores if s["state"] == "AM"]
+ap_pdvs = sum(s["pdvs"] for s in ap_stores)
+pa_pdvs = sum(s["pdvs"] for s in pa_stores)
+am_pdvs = sum(s["pdvs"] for s in am_stores)
 
 table_rows_html = ""
 for s in stores:
@@ -319,12 +322,12 @@ html_content = f"""<!DOCTYPE html>
     <div class="kpi-card">
       <div class="kpi-label">Amapá (Hub Sede)</div>
       <div class="kpi-value">{ap_pdvs} PDVs</div>
-      <div class="kpi-sub">21 Unidades (51.9%)</div>
+      <div class="kpi-sub">{len(ap_stores)} Unidades (55.6%)</div>
     </div>
     <div class="kpi-card warn">
       <div class="kpi-label">Pará / Marajó</div>
       <div class="kpi-value">{pa_pdvs} PDVs</div>
-      <div class="kpi-sub">16 Unidades (37.0%)</div>
+      <div class="kpi-sub">{len(pa_stores)} Unidades (33.3%)</div>
     </div>
     <div class="kpi-card">
       <div class="kpi-label">Maior Operação</div>
