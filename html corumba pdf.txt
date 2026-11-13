@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Levantamento de Caixas (PDV) - Amazonas Importados</title>
+<style>
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+  body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-size: 10pt;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #0f294a;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .company-info h1 {
+    margin: 0;
+    font-size: 18pt;
+    color: #0f294a;
+    letter-spacing: 0.5px;
+  }
+  .company-info p {
+    margin: 2px 0 0 0;
+    font-size: 8.5pt;
+    color: #475569;
+  }
+  .doc-badge {
+    background-color: #0284c7;
+    color: #ffffff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-align: right;
+    font-size: 9pt;
+    font-weight: bold;
+  }
+  .title-block {
+    margin-bottom: 18px;
+  }
+  .title-block h2 {
+    margin: 0;
+    font-size: 14pt;
+    color: #0f294a;
+    text-transform: uppercase;
+  }
+  .title-block p {
+    margin: 3px 0 0 0;
+    color: #64748b;
+    font-size: 9.5pt;
+  }
+  .kpi-grid {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .kpi-card {
+    flex: 1;
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-left: 4px solid #0284c7;
+    border-radius: 6px;
+    padding: 10px 14px;
+  }
+  .kpi-card.highlight {
+    border-left-color: #16a34a;
+    background-color: #f0fdf4;
+  }
+  .kpi-label {
+    font-size: 8pt;
+    text-transform: uppercase;
+    color: #64748b;
+    font-weight: bold;
+  }
+  .kpi-value {
+    font-size: 15pt;
+    font-weight: bold;
+    color: #0f294a;
+    margin-top: 2px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 9.2pt;
+  }
+  th {
+    background-color: #0f294a;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 8.5pt;
+    padding: 9px 10px;
+    border: 1px solid #0f294a;
+  }
+  td {
+    padding: 7px 10px;
+    border: 1px solid #e2e8f0;
+  }
+  tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+  .center { text-align: center; }
+  .left { text-align: left; }
+  .badge-qty {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 12px;
+    min-width: 20px;
+  }
+  .badge-qty.major {
+    background-color: #dcfce7;
+    color: #15803d;
+  }
+  .total-row td {
+    background-color: #0f294a !important;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10pt;
+    padding: 10px;
+    border-color: #0f294a;
+  }
+  .footer {
+    border-top: 1px solid #cbd5e1;
+    padding-top: 10px;
+    font-size: 8pt;
+    color: #64748b;
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="company-info">
+      <img src="Corumba.jpg.jpeg" alt="Imagem" br>
+     <h1>CORUMBA SOLUÇÕES EM T.I.</h1>
+      <p>Av. FAB, 1070 — Sala 508 — Macapá Office Center, Macapá - AP</p>
+      <p>Tel: (96) 4141-5550 / (96) 3333-5550 | www.corumba.digital | contato@corumba.digital</p>
+    </div>
+    <img src="Arara.bmp" alt="logo">
+  
+  </div>
+
+  <div class="title-block">
+    <h2>Relatório de Levantamento de Infraestrutura (PDV)</h2>
+    <p>Inventário consolidado de caixas e terminais de checkout por unidade — Emitido em 13 de novembro de 2026</p>
+  </div>
+
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-label">Unidades Mapeadas</div>
+      <div class="kpi-value">38 Lojas</div>
+    </div>
+    <div class="kpi-card highlight">
+      <div class="kpi-label">Total Geral de Caixas</div>
+      <div class="kpi-value">102 PDVs</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Média por Unidade</div>
+      <div class="kpi-value">2,68 Caixas</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Maior Operação</div>
+      <div class="kpi-value">Lojão (13)</div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="center" style="width: 8%;">Item</th>
+        <th class="center" style="width: 12%;">Cód. Loja</th>
+        <th class="left" style="width: 60%;">Unidade / Loja</th>
+        <th class="center" style="width: 20%;">Caixas / PDV</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="center">01</td><td class="center">01</td><td class="left">Amazonas Importados Matriz</td><td class="center"><span class="badge-qty">3</span></td></tr>
+      <tr><td class="center">02</td><td class="center">10</td><td class="left">Amazonas Importados Buritizal 1</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">03</td><td class="center">16</td><td class="left">Amazonas Importados Santana 1</td><td class="center"><span class="badge-qty">3</span></td></tr>
+      <tr><td class="center">04</td><td class="center">19</td><td class="left"><strong>Amazonas Importados Lojão</strong></td><td class="center"><span class="badge-qty major">13</span></td></tr>
+      <tr><td class="center">05</td><td class="center">20</td><td class="left">Amazonas Importados Santana 2</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">06</td><td class="center">25</td><td class="left">Amazonas Importados Altamira 1</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">07</td><td class="center">26</td><td class="left">Amazonas Importados São José</td><td class="center"><span class="badge-qty">3</span></td></tr>
+      <tr><td class="center">08</td><td class="center">31</td><td class="left">Amazonas Importados BR Zona Norte</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">09</td><td class="center">33</td><td class="left">Amazonas Importados Oiapoque</td><td class="center"><span class="badge-qty">3</span></td></tr>
+      <tr><td class="center">10</td><td class="center">34</td><td class="left">Amazonas Importados Belém</td><td class="center"><span class="badge-qty">4</span></td></tr>
+      <tr><td class="center">11</td><td class="center">36</td><td class="left">Amazonas Importados Breves</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">12</td><td class="center">38</td><td class="left">Amazonas Importados Jari</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">13</td><td class="center">39</td><td class="left">Amazonas Importados Buritizal 2</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">14</td><td class="center">41</td><td class="left">Amazonas Importados Pacoval</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">15</td><td class="center">43</td><td class="left">Amazonas Importados Altamira 2</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">16</td><td class="center">45</td><td class="left">Amazonas Importados Afuá</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">17</td><td class="center">48</td><td class="left">Amazonas Importados Portel</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">18</td><td class="center">49</td><td class="left">Amazonas Importados Cândido Mendes 2</td><td class="center"><span class="badge-qty">4</span></td></tr>
+      <tr><td class="center">19</td><td class="center">55</td><td class="left">Amazonas Importados Perpétuo Socorro</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">20</td><td class="center">56</td><td class="left">Amazonas Importados Zerão</td><td class="center"><span class="badge-qty">1</span></td></tr>
+      <tr><td class="center">21</td><td class="center">57</td><td class="left">Amazonas Importados Pedra Branca</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">22</td><td class="center">58</td><td class="left">Amazonas Importados Porto Grande</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">23</td><td class="center">59</td><td class="left">Amazonas Importados Porto de Moz</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">24</td><td class="center">63</td><td class="left">Amazonas Importados Calçoene</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">25</td><td class="center">65</td><td class="left">Amazonas Importados Amapá</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">26</td><td class="center">66</td><td class="left">Amazonas Importados Mazagão</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">27</td><td class="center">67</td><td class="left">Amazonas Importados Oriximiná</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">28</td><td class="center">70</td><td class="left">Amazonas Importados Lourenço</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">29</td><td class="center">71</td><td class="left">Amazonas Importados Anajás</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">30</td><td class="center">72</td><td class="left">Amazonas Importados Almeirim 2</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">31</td><td class="center">73</td><td class="left">Amazonas Importados Barcarena</td><td class="center"><span class="badge-qty">3</span></td></tr>
+      <tr><td class="center">32</td><td class="center">74</td><td class="left">Amazonas Importados Abaetetuba</td><td class="center"><span class="badge-qty">4</span></td></tr>
+      <tr><td class="center">33</td><td class="center">76</td><td class="left"><strong>Amazonas Importados Manaus</strong></td><td class="center"><span class="badge-qty major">12</span></td></tr>
+      <tr><td class="center">34</td><td class="center">77</td><td class="left">Amazonas Importados Infraero</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">35</td><td class="center">78</td><td class="left">Amazonas Importados Santarém</td><td class="center"><span class="badge-qty">3</span></td></tr>
+      <tr><td class="center">36</td><td class="center">79</td><td class="left">Amazonas Importados Breves 2</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">37</td><td class="center">80</td><td class="left">Amazonas Importados Gurupá</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr><td class="center">38</td><td class="center">82</td><td class="left">Amazonas Importados Buritizal 3</td><td class="center"><span class="badge-qty">2</span></td></tr>
+      <tr class="total-row">
+        <td colspan="3" class="left">TOTAL CONSOLIDADO DE CAIXAS EM OPERAÇÃO (38 UNIDADES)</td>
+        <td class="center">102 PDVs</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    <span>Corumba Soluções em T.I. — Documento Técnico Confidencial</span>
+    <span>Macapá - AP, sexta-feira, 13 de novembro de 2026</span>
+  </div>
+
+</body>
+</html>
