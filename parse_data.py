@@ -45,8 +45,8 @@ for m in matches:
         city = "Portel"
         state = "PA"
     elif "Cândido Mendes" in name:
-        city = "Cândido Mendes"
-        state = "MA/PA"
+        city = "Macapá (Av. Cândido Mendes)"
+        state = "AP"
     elif "Pedra Branca" in name:
         city = "Pedra Branca"
         state = "AP"
