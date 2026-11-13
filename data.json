@@ -1,0 +1,382 @@
+[
+  {
+    "item": 1,
+    "code": "01",
+    "name": "Amazonas Importados Matriz",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 3,
+    "category": "Loja Tradicional",
+    "badge_color": "blue"
+  },
+  {
+    "item": 2,
+    "code": "10",
+    "name": "Amazonas Importados Buritizal 1",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 3,
+    "code": "16",
+    "name": "Amazonas Importados Santana 1",
+    "city": "Santana",
+    "state": "AP",
+    "pdvs": 3,
+    "category": "Loja Tradicional",
+    "badge_color": "blue"
+  },
+  {
+    "item": 4,
+    "code": "19",
+    "name": "Amazonas Importados Lojão",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 13,
+    "category": "Mega Hub",
+    "badge_color": "red"
+  },
+  {
+    "item": 5,
+    "code": "20",
+    "name": "Amazonas Importados Santana 2",
+    "city": "Santana",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 6,
+    "code": "25",
+    "name": "Amazonas Importados Altamira 1",
+    "city": "Altamira",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 7,
+    "code": "26",
+    "name": "Amazonas Importados São José",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 3,
+    "category": "Loja Tradicional",
+    "badge_color": "blue"
+  },
+  {
+    "item": 8,
+    "code": "31",
+    "name": "Amazonas Importados BR Zona Norte",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 9,
+    "code": "33",
+    "name": "Amazonas Importados Oiapoque",
+    "city": "Oiapoque",
+    "state": "AP",
+    "pdvs": 3,
+    "category": "Loja Tradicional",
+    "badge_color": "blue"
+  },
+  {
+    "item": 10,
+    "code": "34",
+    "name": "Amazonas Importados Belém",
+    "city": "Belém",
+    "state": "PA",
+    "pdvs": 4,
+    "category": "Polo Regional",
+    "badge_color": "purple"
+  },
+  {
+    "item": 11,
+    "code": "36",
+    "name": "Amazonas Importados Breves",
+    "city": "Breves",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 12,
+    "code": "38",
+    "name": "Amazonas Importados Jari",
+    "city": "Laranjal do Jari",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 13,
+    "code": "39",
+    "name": "Amazonas Importados Buritizal 2",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 14,
+    "code": "41",
+    "name": "Amazonas Importados Pacoval",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 15,
+    "code": "43",
+    "name": "Amazonas Importados Altamira 2",
+    "city": "Altamira",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 16,
+    "code": "45",
+    "name": "Amazonas Importados Afuá",
+    "city": "Afuá",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 17,
+    "code": "48",
+    "name": "Amazonas Importados Portel",
+    "city": "Portel",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 18,
+    "code": "49",
+    "name": "Amazonas Importados Cândido Mendes 2",
+    "city": "Cândido Mendes",
+    "state": "MA/PA",
+    "pdvs": 4,
+    "category": "Polo Regional",
+    "badge_color": "purple"
+  },
+  {
+    "item": 19,
+    "code": "55",
+    "name": "Amazonas Importados Perpétuo Socorro",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 20,
+    "code": "56",
+    "name": "Amazonas Importados Zerão",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 1,
+    "category": "Loja Compacta",
+    "badge_color": "gray"
+  },
+  {
+    "item": 21,
+    "code": "57",
+    "name": "Amazonas Importados Pedra Branca",
+    "city": "Pedra Branca",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 22,
+    "code": "58",
+    "name": "Amazonas Importados Porto Grande",
+    "city": "Porto Grande",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 23,
+    "code": "59",
+    "name": "Amazonas Importados Porto de Moz",
+    "city": "Porto de Moz",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 24,
+    "code": "63",
+    "name": "Amazonas Importados Calçoene",
+    "city": "Calçoene",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 25,
+    "code": "65",
+    "name": "Amazonas Importados Amapá",
+    "city": "Amapá",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 26,
+    "code": "66",
+    "name": "Amazonas Importados Mazagão",
+    "city": "Mazagão",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 27,
+    "code": "67",
+    "name": "Amazonas Importados Oriximiná",
+    "city": "Oriximiná",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 28,
+    "code": "70",
+    "name": "Amazonas Importados Lourenço",
+    "city": "Lourenço",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 29,
+    "code": "71",
+    "name": "Amazonas Importados Anajás",
+    "city": "Anajás",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 30,
+    "code": "72",
+    "name": "Amazonas Importados Almeirim 2",
+    "city": "Almeirim",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 31,
+    "code": "73",
+    "name": "Amazonas Importados Barcarena",
+    "city": "Barcarena",
+    "state": "PA",
+    "pdvs": 3,
+    "category": "Loja Tradicional",
+    "badge_color": "blue"
+  },
+  {
+    "item": 32,
+    "code": "74",
+    "name": "Amazonas Importados Abaetetuba",
+    "city": "Abaetetuba",
+    "state": "PA",
+    "pdvs": 4,
+    "category": "Polo Regional",
+    "badge_color": "purple"
+  },
+  {
+    "item": 33,
+    "code": "76",
+    "name": "Amazonas Importados Manaus",
+    "city": "Manaus",
+    "state": "AM",
+    "pdvs": 12,
+    "category": "Mega Hub",
+    "badge_color": "red"
+  },
+  {
+    "item": 34,
+    "code": "77",
+    "name": "Amazonas Importados Infraero",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 35,
+    "code": "78",
+    "name": "Amazonas Importados Santarém",
+    "city": "Santarém",
+    "state": "PA",
+    "pdvs": 3,
+    "category": "Loja Tradicional",
+    "badge_color": "blue"
+  },
+  {
+    "item": 36,
+    "code": "79",
+    "name": "Amazonas Importados Breves 2",
+    "city": "Breves",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 37,
+    "code": "80",
+    "name": "Amazonas Importados Gurupá",
+    "city": "Gurupá",
+    "state": "PA",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  },
+  {
+    "item": 38,
+    "code": "82",
+    "name": "Amazonas Importados Buritizal 3",
+    "city": "Macapá",
+    "state": "AP",
+    "pdvs": 2,
+    "category": "Loja Padrão",
+    "badge_color": "green"
+  }
+]
